@@ -40,7 +40,8 @@ for (let i = 0; i < 10; i++) {
   module.exports.add( getFakeName(), getFakeTweet() );
 }
 
-console.log(data);
+// console.log(data);
 // console.log(list());
-console.log("data[0]",data[0].name);
-console.log(find({name: data[0].name}));
+
+// console.log("data[0]",data[0].name);
+// console.log(find({name: data[0].name}));

@@ -1,8 +1,12 @@
 const express = require('express');
 const app = express();
 const nunjucks = require('nunjucks');
-
 const chalk = require('chalk');
+
+const routes = require('./routes/');
+app.use('/', routes);
+
+
 
 var locals = {
     title: 'An Example',
